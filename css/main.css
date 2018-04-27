@@ -139,6 +139,10 @@ ul li {
 #header .logo {
 	float: left;
 }
+#header .logo img{
+	height: 50px;
+	padding-top: 10px;
+}
 #header.fixed {
 	background-color: #201f22;
 }
@@ -349,23 +353,13 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Overview
 -------------------------------------------------------------------------------*/
-  .overview-content h4 {
-	text-transform:uppercase;
-	letter-spacing:1px;
-}
-.overview-content p {
-	font-family: "Roboto", sans-serif;
-	font-size:13px;
-	font-weight: 300;
-	line-height: 21px;
-	letter-spacing:1px;
-	padding-right:12%;
-}
 .overview-video {
-	margin:auto;
-	margin-bottom:7%;
+	margin: 0;
+	padding: 0;
 }
 .overview-video iframe {
+	margin: 0;
+	padding: 0;
 	width:800px;
 	height:450px;
 }
@@ -430,10 +424,6 @@ ul li {
 .features3 {
 	background-color:#f2f2f2;
 	padding-bottom:0;
-}
-.features3 img {
-	bottom: -100px;
-	padding-left:15%;
 }
 
 /* ------------------------------------------------------------------------------
